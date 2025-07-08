@@ -28,7 +28,7 @@ int main() {
     
     printf("\n");
     
-    printf("Nome da Cidade (sem espaços): \n"); // Inserir a Cidade da 1⁰ carta
+    printf("Nome da Cidade (Sem Espaços): \n"); // Inserir a Cidade da 1⁰ carta
     scanf("%s", &cidade1);
     
     printf("\n");
@@ -50,6 +50,9 @@ int main() {
     
     printf("Quantidade de Pontos Turísticos: \n"); //Inserir a Quantidade de Pontos Turísticos
     scanf("%d", &pontosturisticos1, "\n");
+    
+    float mediaDensidade1 = (populacao1 + area1) / 2;
+    float mediaPibPerCapita1 = (pib1 + populacao1) / 2;
     
     printf("\n");
     printf("\n");
@@ -88,7 +91,10 @@ int main() {
     printf("Quantidade de Pontos Turísticos: \n"); //Inserir a Quantidade de Pontos Turísticos
     scanf("%d", &pontosturisticos2, "\n");
     
-    printf("\n"); //Linha em branco com o propósito de deixar mais agradável a leitura
+    float mediaDensidade2 = (populacao2 + area2) / 2;
+    float mediaPibPerCapita2 = (pib2 + populacao2) / 2;
+    
+    printf("\n");
     printf("\n");
     printf("\n");
     
@@ -99,7 +105,10 @@ int main() {
     printf("População: %d\n", populacao1);
     printf("Área em KM²: %.2f\n", area1);
     printf("PIB: %.2f\n", pib1);
-    printf("Pontos Turísticos: %d", pontosturisticos1);
+    printf("Pontos Turísticos: %d\n", pontosturisticos1);
+    printf("Densidade Populacional: %.2f hab/km²\n", mediaDensidade1);
+    printf("PIB Per Capita: %.2f reais\n", mediaPibPerCapita1);
+    
     
     printf("\n");
     printf("\n");
@@ -112,7 +121,8 @@ int main() {
     printf("Área em KM²: %.2f\n", area2);
     printf("PIB: %.2f\n", pib2);
     printf("Pontos Turísticos: %d", pontosturisticos2);    
-    
+    printf("Densidade Populacional: %.2f hab/km²\n", mediaDensidade2);
+    printf("PIB Per Capita: %.2f reais\n", mediaPibPerCapita2);
     
     
     return 0;
