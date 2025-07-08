@@ -28,7 +28,7 @@ int main() {
     
     printf("\n");
     
-    printf("Nome da Cidade: \n"); // Inserir a Cidade da 1⁰ carta
+    printf("Nome da Cidade (sem espaços): \n"); // Inserir a Cidade da 1⁰ carta
     scanf("%s", &cidade1);
     
     printf("\n");
