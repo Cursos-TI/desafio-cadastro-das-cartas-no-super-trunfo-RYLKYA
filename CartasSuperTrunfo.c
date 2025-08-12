@@ -62,7 +62,7 @@ int main() {
     
     printf("Agora, insira os dados da carta 2\n"); // Inserir os dados da 1⁰ carta
     printf("Nome do Estado (De A até H): \n"); // Inserir o Estado da 1⁰ carta
-    scanf("%s", &estado1);
+    scanf("%s", &estado2);
     
     printf("\n");
     
